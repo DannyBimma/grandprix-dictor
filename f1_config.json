@@ -3,52 +3,82 @@
     {
       "name": "McLaren",
       "engine": "Mercedes",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 9,
+      "tireStrategy": 8,
+      "aerodynamics": 9
     },
     {
       "name": "Ferrari",
       "engine": "Ferrari",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 7,
+      "tireStrategy": 9,
+      "aerodynamics": 8
     },
     {
       "name": "Red Bull",
       "engine": "Honda RBPT",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 10,
+      "tireStrategy": 9,
+      "aerodynamics": 10
     },
     {
       "name": "Mercedes",
       "engine": "Mercedes",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 8,
+      "tireStrategy": 8,
+      "aerodynamics": 9
     },
     {
       "name": "Aston Martin",
       "engine": "Mercedes",
-      "isTopTeam": false
+      "isTopTeam": false,
+      "pitStopEfficiency": 6,
+      "tireStrategy": 7,
+      "aerodynamics": 7
     },
     {
       "name": "Alpine",
       "engine": "Renault",
-      "isTopTeam": false
+      "isTopTeam": false,
+      "pitStopEfficiency": 5,
+      "tireStrategy": 6,
+      "aerodynamics": 6
     },
     {
       "name": "Haas",
       "engine": "Ferrari",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 6,
+      "tireStrategy": 7,
+      "aerodynamics": 6
     },
     {
       "name": "Racing Bulls",
       "engine": "Honda RBPT",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 7,
+      "tireStrategy": 7,
+      "aerodynamics": 7
     },
     {
       "name": "Williams",
       "engine": "Mercedes",
-      "isTopTeam": true
+      "isTopTeam": true,
+      "pitStopEfficiency": 7,
+      "tireStrategy": 6,
+      "aerodynamics": 6
     },
     {
       "name": "Sauber",
       "engine": "Ferrari",
-      "isTopTeam": false
+      "isTopTeam": false,
+      "pitStopEfficiency": 5,
+      "tireStrategy": 5,
+      "aerodynamics": 5
     }
   ],
   "drivers": [
@@ -60,7 +90,11 @@
       "homeTrack": "Great Britain",
       "teamIndex": 0,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 9,
+      "consistency": 8,
+      "experienceLevel": 7,
+      "wetWeatherSkill": 8
     },
     {
       "name": "Piastri",
@@ -70,7 +104,11 @@
       "homeTrack": "Australia",
       "teamIndex": 0,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 8,
+      "consistency": 9,
+      "experienceLevel": 6,
+      "wetWeatherSkill": 7
     },
     {
       "name": "Leclerc",
@@ -80,7 +118,11 @@
       "homeTrack": "Monaco",
       "teamIndex": 1,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 9,
+      "consistency": 7,
+      "experienceLevel": 8,
+      "wetWeatherSkill": 9
     },
     {
       "name": "Hamilton",
@@ -90,7 +132,11 @@
       "homeTrack": "Great Britain",
       "teamIndex": 1,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 10,
+      "consistency": 8,
+      "experienceLevel": 10,
+      "wetWeatherSkill": 10
     },
     {
       "name": "Verstappen",
@@ -100,7 +146,11 @@
       "homeTrack": "Netherlands",
       "teamIndex": 2,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 10,
+      "consistency": 10,
+      "experienceLevel": 9,
+      "wetWeatherSkill": 9
     },
     {
       "name": "Tsunoda",
@@ -110,7 +160,11 @@
       "homeTrack": "Japan",
       "teamIndex": 2,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 7,
+      "consistency": 6,
+      "experienceLevel": 6,
+      "wetWeatherSkill": 7
     },
     {
       "name": "Russell",
@@ -120,7 +174,11 @@
       "homeTrack": "Great Britain",
       "teamIndex": 3,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 8,
+      "consistency": 9,
+      "experienceLevel": 8,
+      "wetWeatherSkill": 9
     },
     {
       "name": "Antonelli",
@@ -130,7 +188,11 @@
       "homeTrack": "Italy",
       "teamIndex": 3,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 7,
+      "consistency": 6,
+      "experienceLevel": 3,
+      "wetWeatherSkill": 6
     },
     {
       "name": "Alonso",
@@ -140,7 +202,11 @@
       "homeTrack": "Spain",
       "teamIndex": 4,
       "isTopDriver": true,
-      "isEliteDriver": true
+      "isEliteDriver": true,
+      "overtakingAbility": 10,
+      "consistency": 9,
+      "experienceLevel": 10,
+      "wetWeatherSkill": 10
     },
     {
       "name": "Stroll",
@@ -150,7 +216,11 @@
       "homeTrack": "Canada",
       "teamIndex": 4,
       "isTopDriver": false,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 5,
+      "consistency": 6,
+      "experienceLevel": 7,
+      "wetWeatherSkill": 6
     },
     {
       "name": "Gasly",
@@ -160,7 +230,11 @@
       "homeTrack": "France",
       "teamIndex": 5,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 8,
+      "consistency": 7,
+      "experienceLevel": 8,
+      "wetWeatherSkill": 8
     },
     {
       "name": "Colapinto",
@@ -170,7 +244,11 @@
       "homeTrack": "NIL",
       "teamIndex": 5,
       "isTopDriver": false,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 6,
+      "consistency": 5,
+      "experienceLevel": 3,
+      "wetWeatherSkill": 5
     },
     {
       "name": "Bearman",
@@ -180,7 +258,11 @@
       "homeTrack": "Great Britain",
       "teamIndex": 6,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 6,
+      "consistency": 6,
+      "experienceLevel": 4,
+      "wetWeatherSkill": 6
     },
     {
       "name": "Ocon",
@@ -190,7 +272,11 @@
       "homeTrack": "France",
       "teamIndex": 6,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 7,
+      "consistency": 8,
+      "experienceLevel": 8,
+      "wetWeatherSkill": 7
     },
     {
       "name": "Lawson",
@@ -200,7 +286,11 @@
       "homeTrack": "New Zealand",
       "teamIndex": 7,
       "isTopDriver": false,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 7,
+      "consistency": 7,
+      "experienceLevel": 4,
+      "wetWeatherSkill": 6
     },
     {
       "name": "Hadjar",
@@ -210,7 +300,11 @@
       "homeTrack": "France",
       "teamIndex": 7,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 6,
+      "consistency": 6,
+      "experienceLevel": 3,
+      "wetWeatherSkill": 6
     },
     {
       "name": "Albon",
@@ -220,7 +314,11 @@
       "homeTrack": "Thailand",
       "teamIndex": 8,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 8,
+      "consistency": 8,
+      "experienceLevel": 7,
+      "wetWeatherSkill": 7
     },
     {
       "name": "Sainz",
@@ -230,7 +328,11 @@
       "homeTrack": "Spain",
       "teamIndex": 8,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 9,
+      "consistency": 9,
+      "experienceLevel": 9,
+      "wetWeatherSkill": 9
     },
     {
       "name": "Hulkenberg",
@@ -240,7 +342,11 @@
       "homeTrack": "Germany",
       "teamIndex": 9,
       "isTopDriver": true,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 7,
+      "consistency": 8,
+      "experienceLevel": 9,
+      "wetWeatherSkill": 8
     },
     {
       "name": "Bortoleto",
@@ -250,7 +356,11 @@
       "homeTrack": "Brazil",
       "teamIndex": 9,
       "isTopDriver": false,
-      "isEliteDriver": false
+      "isEliteDriver": false,
+      "overtakingAbility": 6,
+      "consistency": 6,
+      "experienceLevel": 3,
+      "wetWeatherSkill": 7
     }
   ]
 }

@@ -4,13 +4,12 @@ A Formula 1 Grand Prix prediction application written in C, that calculates the 
 
 ## Features
 
-- Predicts race outcomes based on team, driver, track, and weather conditions
+- Predicts race outcomes based on team, driver, track, and real weather conditions
 - Takes into account the following factors:
-  - Top teams and drivers
-  - Elite driver status (basically my faves)
-  - Engine advantage
-  - Favorite/home track advantage
-  - Weather conditions (wet/dry)
+  - Team performance metrics (pit stop efficiency, tire strategy, aerodynamics)
+  - Driver-specific abilities (overtaking, consistency, experience, wet weather skill)
+  - Track characteristics (DRS effectiveness, track type)
+  - Real-time weather data (temperature, humidity, wind, rain probability)
   - Command-line interface with optional arguments for track and weather
 
 ## Usage
@@ -88,7 +87,32 @@ The application calculates the total probability points for each driver, convert
 
 - GCC or compatible C compiler
 - Make (for building)
-- Standard C libraries
+- jansson library (JSON parsing)
+- libcurl (HTTP requests)
+- OpenWeatherMap API key (free registration)
+
+## Weather API Setup (Optional)
+
+For real weather data, get a free API key from [OpenWeatherMap](https://openweathermap.org/api):
+
+1. Register at https://openweathermap.org/api
+2. Get your free API key
+3. Use one of these methods:
+
+   **Method 1: Environment Variable (Recommended)**
+   ```bash
+   export OPENWEATHER_API_KEY="your_actual_api_key_here"
+   ./grand_prixdictor Monaco dry
+   ```
+
+   **Method 2: Edit Source Code**
+   Edit `grand_prixdictor.c` and replace the empty `WEATHER_API_KEY`:
+   ```c
+   #define WEATHER_API_KEY "your_actual_api_key_here"
+   ```
+   Then recompile: `make clean && make`
+
+**Note**: Without an API key, the application uses simulated weather data as fallback.
 
 ## Cleanup
 

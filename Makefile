@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
-LIBS = `pkg-config --cflags --libs jansson`
+LIBS = `pkg-config --cflags --libs jansson` -lcurl -lm
 TARGET = grand_prixdictor
 SOURCE = grand_prixdictor.c
 
