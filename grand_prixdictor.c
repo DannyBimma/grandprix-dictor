@@ -1,4 +1,10 @@
-/*Copyright (c) 2025 DannyBimma. All Rights Reserved.*/
+/*Copyright (c) 2025 DannyBimma. All Rights Reserved.
+ *
+ * A program that predicts the complete race order of
+ * a given F1 Grand Prix weekend based pertinent
+ * calculations.
+ *
+ * */
 
 #include <ctype.h>
 #include <jansson.h>
