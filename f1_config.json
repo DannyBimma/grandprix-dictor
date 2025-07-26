@@ -1,0 +1,256 @@
+{
+  "teams": [
+    {
+      "name": "McLaren",
+      "engine": "Mercedes",
+      "isTopTeam": true
+    },
+    {
+      "name": "Ferrari",
+      "engine": "Ferrari",
+      "isTopTeam": true
+    },
+    {
+      "name": "Red Bull",
+      "engine": "Honda RBPT",
+      "isTopTeam": true
+    },
+    {
+      "name": "Mercedes",
+      "engine": "Mercedes",
+      "isTopTeam": true
+    },
+    {
+      "name": "Aston Martin",
+      "engine": "Mercedes",
+      "isTopTeam": false
+    },
+    {
+      "name": "Alpine",
+      "engine": "Renault",
+      "isTopTeam": false
+    },
+    {
+      "name": "Haas",
+      "engine": "Ferrari",
+      "isTopTeam": true
+    },
+    {
+      "name": "Racing Bulls",
+      "engine": "Honda RBPT",
+      "isTopTeam": true
+    },
+    {
+      "name": "Williams",
+      "engine": "Mercedes",
+      "isTopTeam": true
+    },
+    {
+      "name": "Sauber",
+      "engine": "Ferrari",
+      "isTopTeam": false
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Norris",
+      "number": 4,
+      "country": "United Kingdom",
+      "favoriteTrack": "Silverstone",
+      "homeTrack": "Great Britain",
+      "teamIndex": 0,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Piastri",
+      "number": 81,
+      "country": "Australia",
+      "favoriteTrack": "Spa",
+      "homeTrack": "Australia",
+      "teamIndex": 0,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Leclerc",
+      "number": 16,
+      "country": "Monaco",
+      "favoriteTrack": "Monaco",
+      "homeTrack": "Monaco",
+      "teamIndex": 1,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Hamilton",
+      "number": 44,
+      "country": "United Kingdom",
+      "favoriteTrack": "Spa",
+      "homeTrack": "Great Britain",
+      "teamIndex": 1,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Verstappen",
+      "number": 33,
+      "country": "Netherlands",
+      "favoriteTrack": "Spa",
+      "homeTrack": "Netherlands",
+      "teamIndex": 2,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Tsunoda",
+      "number": 22,
+      "country": "Japan",
+      "favoriteTrack": "Suzuka",
+      "homeTrack": "Japan",
+      "teamIndex": 2,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Russell",
+      "number": 63,
+      "country": "United Kingdom",
+      "favoriteTrack": "Silverstone",
+      "homeTrack": "Great Britain",
+      "teamIndex": 3,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Antonelli",
+      "number": 12,
+      "country": "Italy",
+      "favoriteTrack": "Imola",
+      "homeTrack": "Italy",
+      "teamIndex": 3,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Alonso",
+      "number": 14,
+      "country": "Spain",
+      "favoriteTrack": "Interlagos",
+      "homeTrack": "Spain",
+      "teamIndex": 4,
+      "isTopDriver": true,
+      "isEliteDriver": true
+    },
+    {
+      "name": "Stroll",
+      "number": 18,
+      "country": "Canada",
+      "favoriteTrack": "Circuit Gilles Villeneuve",
+      "homeTrack": "Canada",
+      "teamIndex": 4,
+      "isTopDriver": false,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Gasly",
+      "number": 10,
+      "country": "France",
+      "favoriteTrack": "Monaco",
+      "homeTrack": "France",
+      "teamIndex": 5,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Colapinto",
+      "number": 43,
+      "country": "Argentina",
+      "favoriteTrack": "Abu Dhabi",
+      "homeTrack": "NIL",
+      "teamIndex": 5,
+      "isTopDriver": false,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Bearman",
+      "number": 87,
+      "country": "United Kingdom",
+      "favoriteTrack": "Jeddah",
+      "homeTrack": "Great Britain",
+      "teamIndex": 6,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Ocon",
+      "number": 31,
+      "country": "France",
+      "favoriteTrack": "France",
+      "homeTrack": "France",
+      "teamIndex": 6,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Lawson",
+      "number": 30,
+      "country": "New Zealand",
+      "favoriteTrack": "New Zealand",
+      "homeTrack": "New Zealand",
+      "teamIndex": 7,
+      "isTopDriver": false,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Hadjar",
+      "number": 6,
+      "country": "France",
+      "favoriteTrack": "France",
+      "homeTrack": "France",
+      "teamIndex": 7,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Albon",
+      "number": 23,
+      "country": "Thailand",
+      "favoriteTrack": "Thailand",
+      "homeTrack": "Thailand",
+      "teamIndex": 8,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Sainz",
+      "number": 55,
+      "country": "Spain",
+      "favoriteTrack": "Spain",
+      "homeTrack": "Spain",
+      "teamIndex": 8,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Hulkenberg",
+      "number": 27,
+      "country": "Germany",
+      "favoriteTrack": "Germany",
+      "homeTrack": "Germany",
+      "teamIndex": 9,
+      "isTopDriver": true,
+      "isEliteDriver": false
+    },
+    {
+      "name": "Bortoleto",
+      "number": 5,
+      "country": "Brazil",
+      "favoriteTrack": "Brazil",
+      "homeTrack": "Brazil",
+      "teamIndex": 9,
+      "isTopDriver": false,
+      "isEliteDriver": false
+    }
+  ]
+}
